@@ -98,9 +98,9 @@ const config = (env = {}) => {
             {
               loader: 'elm-webpack-loader',
               query: {
-                verbose: true,
-                warn: true,
-                debug: true
+                verbose: false,
+                warn: false,
+                debug: false
               }
             }
           ]
