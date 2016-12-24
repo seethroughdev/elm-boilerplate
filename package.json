@@ -17,7 +17,8 @@
     "start": "./node_modules/.bin/webpack-dashboard -- webpack-dev-server --hot --inline --content-base src/",
     "clean": "./node_modules/.bin/rimraf dist",
     "build": "npm run clean && webpack --env.prod -p",
-    "reinstall": "rm -rf node_modules && rm -rf elm_stuff && yarn install && elm package install -y"
+    "presetup": "rm -rf node_modules && rm -rf elm_stuff",
+    "setup": "yarn install && elm package install -y"
   },
   "devDependencies": {
     "copy-webpack-plugin": "^4.0.1",
