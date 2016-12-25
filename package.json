@@ -1,6 +1,6 @@
 {
   "name": "elm-boilerplate",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "My Elm/PostCSS/Webpack boilerplate",
   "main": "src/index.js",
   "repository": {
