@@ -7,8 +7,7 @@ Its heavily inspired and appreciative of: https://github.com/moarwick/elm-webpac
 ### Install
 
 ```
-git clone https://github.com/seethroughtrees/elm-boilerplate.git
-cd elm-boilerplate
+git clone https://github.com/seethroughtrees/elm-boilerplate.git && cd elm-boilerplate
 rm -rf .git
 npm run setup
 ```
