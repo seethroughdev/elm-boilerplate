@@ -1,8 +1,8 @@
 # elm-boilerplate
 
-This is the boilerplate I'm using for my elm apps currently.  
+This my current boilerplate for building Elm apps.  
 
-Its heavily inspired and appreciative of: https://github.com/moarwick/elm-webpack-starter.  I started to use it, but wanted to make so many customizations that it became more clear that I should just make a new one.  
+Its heavily inspired by: [elm-webpack-starter][1].  I started to use it, but wanted to make so many customizations that it became more clear that I should just make a new one.  
 
 ### Install
 
@@ -18,9 +18,11 @@ npm run setup
 npm start
 ```
 
+Visit http://localhost:8080/ and start editing.
+
 ### Features
 
-#### It retains the following features:
+#### It retains the following features from [elm-webpack-starter][1]:
 
 - Dev server, live reloading, HMR!
 - Simple dev and production builds
@@ -31,13 +33,19 @@ npm start
 - Removed Bootstrap
 - Removed jQuery
 - Removed Sass
-- Replace with PostCSS.  [config](https://github.com/seethroughtrees/elm-boilerplate/blob/master/postcss.config.js)
+- Replace Sass with PostCSS - [config](https://github.com/seethroughtrees/elm-boilerplate/blob/master/postcss.config.js)
 - Added Yarn
+- Added CSS normalizr
 - Added complete gitignore
-- Replaced webpack config and updated to Webpack 2
-- Upgraded to Html.program instead of beginnerProgram, as I prefer to have Cmd.
+- Upgraded and rebuilt for Webpack 2
+- Used Html.program instead of beginnerProgram, as I prefer to have Cmd.
 - Isolated app code in Main.elm
 
-This can easily be configured further.  If you have suggestions for ways to make it better, please open an issue and discuss!
 
-Thanks again to Moarwick, and the `elm-webpack-starter`.  And of course all the hard working OSS devs that made all this a possibility.
+### Contributing
+
+This can easily be configured further, and in some ways it is opinionated.  If you have suggestions for ways to make it better, please open an issue and discuss!
+
+Thanks again to Moarwick, and the [elm-webpack-starter][1].  And of course all the hard working OSS devs that made all this a possibility.
+
+[1]: https://github.com/moarwick/elm-webpack-starter
