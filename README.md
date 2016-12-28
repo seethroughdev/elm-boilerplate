@@ -1,8 +1,16 @@
-# elm-boilerplate
+# Elm Boilerplate
 
-This my current boilerplate for building Elm apps.  
+This my current boilerplate for building Elm apps.  It makes use of:
 
-Its heavily inspired by: [elm-webpack-starter][1].  I started to use it, but wanted to make so many customizations that it became more clear that I should just make a new one.  
+- Elm 0.18
+- Webpack 2
+- PostCSS
+- Routing
+- Hot Module Reloading / Dev Server
+
+With what I feel are some sensible defaults.
+
+Its heavily inspired by: [elm-webpack-starter][1].  I started to use it, but wanted to make so many customizations that i felt it would be better to make a new one.
 
 ### Install
 
@@ -20,6 +28,12 @@ npm start
 
 Visit http://localhost:8080/ and start editing.
 
+For compiled production build:
+
+```
+npm run build
+```
+
 ### Features
 
 #### It retains the following features from [elm-webpack-starter][1]:
@@ -30,6 +44,7 @@ Visit http://localhost:8080/ and start editing.
 
 #### Here's the main differences:
 
+- Added multi-file structure
 - Removed Bootstrap
 - Removed jQuery
 - Removed Sass
@@ -41,6 +56,7 @@ Visit http://localhost:8080/ and start editing.
 - Used Html.program instead of beginnerProgram, as I prefer to have Cmd.
 - Isolated app code in Main.elm
 
+--------------
 
 ### Contributing
 
